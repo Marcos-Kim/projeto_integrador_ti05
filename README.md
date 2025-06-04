@@ -35,14 +35,14 @@ Front-End:
 
 #Tecnologias utilizadas:
 
-	Na criação do FRONT-END foram utilizadas apenas as linguagens HTML5, CSS3, JAVASCRIPT e BOOTSTRAP 5.3.2.
+Na criação do FRONT-END foram utilizadas apenas as linguagens HTML5, CSS3, JAVASCRIPT e BOOTSTRAP 5.3.2.
 
 #Tela do desktop:
 
-	No topo da tela temos o cabeçalho, onde o usuário deve inserir os dados necessários para abrir a roleta e gerar seu ID. Isso evita que participantes de outros sorteios simultâneos sejam erroneamente adicionados a outros sorteios.
-	Após clicar em CRIAR ROLETA, é gerado um ID e também um QR Code que direciona os usuários mobile para a página de participação correspondente a esse sorteio.
-	O corpo principal da página foi dividido em 3 colunas; a primeira é para listar os participantes, a segunda é para adicionar os participantes e a terceira é para o resultado do sorteio.
-	Por fim, no rodapé da página fixamos uma área para banners publicitários, através dos quais vamos monetizar a ferramenta, pois ela é gratuita para os usuários.
+No topo da tela temos o cabeçalho, onde o usuário deve inserir os dados necessários para abrir a roleta e gerar seu ID. Isso evita que participantes de outros sorteios simultâneos sejam erroneamente adicionados a outros sorteios.
+Após clicar em CRIAR ROLETA, é gerado um ID e também um QR Code que direciona os usuários mobile para a página de participação correspondente a esse sorteio.
+O corpo principal da página foi dividido em 3 colunas; a primeira é para listar os participantes, a segunda é para adicionar os participantes e a terceira é para o resultado do sorteio.
+Por fim, no rodapé da página fixamos uma área para banners publicitários, através dos quais vamos monetizar a ferramenta, pois ela é gratuita para os usuários.
  
 ![Captura de Tela (55)](https://github.com/user-attachments/assets/217f7a38-4208-431a-9a68-2d5bcd033802)
 
@@ -57,7 +57,7 @@ Front-End:
 
 •	Estando tudo ok, entra uma tela de anúncio e sequencialmente entra uma nova tela;
 •	Após a tela de publicidade, é carregada uma tela de espera, que informa ao participante para aguardar o resultado do sorteio; 
-![Imagem1](https://github.com/user-attachments/assets/aa57e2a3-b35a-4bca-b945-da10a7caaca8)
+![Imagem1](https://github.com/user-attachments/assets/23449392-687d-4155-aed5-aa6bbb82b02c)
 
 •	Após o sorteio, cada participante que entrou pelo QR Code deve receber uma mensagem em uma nova tela indicando sua posição sorteada (“Parabéns! Você está na XX posição. Boa sorte!”). Logo abaixo, perguntamos “Gostaria de salvar uma cópia da lista sorteada?” e oferecemos 2 botões: SALVAR e outro botão SAIR;
 ![Captura de Tela (59)](https://github.com/user-attachments/assets/b9089e8f-b539-406e-a710-e0e7fb0df0e8)
