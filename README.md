@@ -5,7 +5,7 @@ Projeto Integrador
 
 Participantes:
 Kaylane - https://github.com/kaycout
-Laís - https://github.com/kaycout
+Laís - https://github.com/laisnf
 Marcos - https://github.com/Marcos-Kim
 
 Proposta:
@@ -40,30 +40,31 @@ Na criação do FRONT-END foram utilizadas apenas as linguagens HTML5, CSS3, JAV
 #Tela do desktop:
 
 No topo da tela temos o cabeçalho, onde o usuário deve inserir os dados necessários para abrir a roleta e gerar seu ID. Isso evita que participantes de outros sorteios simultâneos sejam erroneamente adicionados a outros sorteios.
+![Captura de Tela (80)](https://github.com/user-attachments/assets/814118d1-7630-4956-b634-5f184e3af575)
+
 Após clicar em CRIAR ROLETA, é gerado um ID e também um QR Code que direciona os usuários mobile para a página de participação correspondente a esse sorteio.
 O corpo principal da página foi dividido em 3 colunas; a primeira é para listar os participantes, a segunda é para adicionar os participantes e a terceira é para o resultado do sorteio.
 Por fim, no rodapé da página fixamos uma área para banners publicitários, através dos quais vamos monetizar a ferramenta, pois ela é gratuita para os usuários.
- 
-![Captura de Tela (55)](https://github.com/user-attachments/assets/217f7a38-4208-431a-9a68-2d5bcd033802)
+ ![Captura de Tela (86)](https://github.com/user-attachments/assets/f4a7e172-7d63-4e63-9eaa-7808713fc5ab)
 
 
 #Telas do celular:
 
 •	A primeira tela deve exibir EMPRESA, EMPREENDIMENTO, DATA e ROLETA (com o período já selecionado. E logo abaixo os campos NOME, EQUIPE e SUPERVISÃO para serem preenchidos, além do botão ENVIAR;
-![Captura de Tela (57)](https://github.com/user-attachments/assets/1e942123-02a1-47a4-b5a8-42a2f99a7c6a)
+![mob1](https://github.com/user-attachments/assets/6ab01bbf-23b6-4015-b55f-7482162ef27f)
 
 •	No caso de duplicidade de participante, haverá uma tela informando que não foi possível inserir o participante em razão dessa duplicidade;
-![Captura de Tela (63)](https://github.com/user-attachments/assets/9bfca979-bb2c-4c39-b574-4d9ce3b83af2)
+![mob2](https://github.com/user-attachments/assets/7589889c-9e26-4de8-85a9-eef40902bf72)
 
 •	Estando tudo ok, entra uma tela de anúncio e sequencialmente entra uma nova tela;
 •	Após a tela de publicidade, é carregada uma tela de espera, que informa ao participante para aguardar o resultado do sorteio; 
 ![Imagem1](https://github.com/user-attachments/assets/23449392-687d-4155-aed5-aa6bbb82b02c)
 
 •	Após o sorteio, cada participante que entrou pelo QR Code deve receber uma mensagem em uma nova tela indicando sua posição sorteada (“Parabéns! Você está na XX posição. Boa sorte!”). Logo abaixo, perguntamos “Gostaria de salvar uma cópia da lista sorteada?” e oferecemos 2 botões: SALVAR e outro botão SAIR;
-![Captura de Tela (59)](https://github.com/user-attachments/assets/b9089e8f-b539-406e-a710-e0e7fb0df0e8)
+![mob4](https://github.com/user-attachments/assets/35b96f14-8c89-4849-9b1b-f0dd7e70c266)
 
 •	Se o usuário clicar em sair, a janela muda para “Obrigado” e acabou. Mas se clicar em SALVAR, uma nova tela de anúncio se abre e depois o arquivo em formato PDF com as listas é enviado, encerrando a operação de nossa parte.
-![Captura de Tela (61)](https://github.com/user-attachments/assets/302553a5-35c9-4888-953e-e5bcc4452ab2)
+![mob3](https://github.com/user-attachments/assets/7a4ac668-c52d-471e-8e1b-3ac113869625)
 
 
 CRIAÇÃO DO BANCO DE DADOS DA ROLETA – P.I
@@ -95,16 +96,16 @@ Definição das entidades do banco de dados.
 A modelagem do banco de dados foi feita a partir da definição das entidades, pensando nisso, foi realizado o modelo lógico juntamente com as normalizações, sendo eles todos os atributos necessários para o banco de dados.
 
 # Modelo Lógico com as normalizações
--------------------------uma imagem aqui--------------------------
+![normalizacao-livre-atualizada2 0](https://github.com/user-attachments/assets/869cd9d3-6216-41e6-8d99-28b13149e351)
 
 ## 1 Normalização
--------------------------uma imagem aqui--------------------------
+![primeira-normalizacao-atualizada2 0 (1)](https://github.com/user-attachments/assets/45a239c1-dce6-40e9-9c1e-a7b064c1214d)
 
 ## 2 Normalização
--------------------------uma imagem aqui--------------------------
+![segunda-normalizacao-atualizada2 0 (1)](https://github.com/user-attachments/assets/025eed28-5265-4bc1-bc3c-08790eff953d)
 
 ## 3 Normalização-a
--------------------------uma imagem aqui--------------------------
+![terceira-normalizacao1](https://github.com/user-attachments/assets/6e5fd212-779d-44b0-be60-36387db0600a)
 
 ## 3 Normalização-b
 ![terceira-normalizacao2](https://github.com/user-attachments/assets/77666d44-0dd3-48dd-a999-a390ce0754f6)
